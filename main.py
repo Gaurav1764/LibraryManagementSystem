@@ -1,6 +1,7 @@
-# main.py - Modified Console Program
-# Author: <Your Name>
-
+# Main.py
+# Author: Gaurav Kumar (2501940033)
+# Date: 28-11-2025
+# Assignment: Library Inventory System - Library logic with persistence
 from library import LibrarySystem
 from book import Book
 from member import Member
@@ -76,3 +77,4 @@ def run():
 if __name__ == "__main__":
     banner()
     run()
+
