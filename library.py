@@ -1,5 +1,7 @@
 # library.py - Entirely Rewritten
-# Author: <Your Name>
+# Author: Gaurav Kumar (2501940033)
+# Date: 28-11-2025
+# Assignment: Library Inventory System - Library logic with persistence
 
 import json
 from book import Book
@@ -98,3 +100,4 @@ class LibrarySystem:
 
     def list_all_members(self):
         return list(self.members.values())
+
