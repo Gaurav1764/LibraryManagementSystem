@@ -1,5 +1,7 @@
 # member.py - Updated Version
-# Author: <Your Name>
+# Author: Gaurav Kumar (2501940033)
+# Date: 28-11-2025
+# Assignment: Library Inventory System - Library logic with persistence
 
 class Member:
     def __init__(self, full_name, uid, holding=None):
@@ -36,3 +38,4 @@ class Member:
 
     def __repr__(self):
         return f"{self.full_name} [{self.uid}] | Books taken: {len(self.holding)}"
+
