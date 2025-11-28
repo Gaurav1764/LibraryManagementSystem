@@ -1,5 +1,7 @@
 # book.py - Revised Implementation
-# Author: <Your Name>
+# Author: Gaurav Kumar (2501940033)
+# Date: 28-11-2025
+# Assignment: Library Inventory System - Library logic with persistence
 
 class Book:
     def __init__(self, name, writer, code, is_free=True, times_used=0):
@@ -41,3 +43,4 @@ class Book:
     def __repr__(self):
         s = "Available" if self.is_free else "Issued"
         return f"{self.name} ({self.writer}) | {self.code} | {s} | Used {self.times_used} times"
+
